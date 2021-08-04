@@ -20,7 +20,7 @@ FA_SCORE = 1
 MISS_SCORE = 2
 CR_SCORE = 3
 # dict {key = next state, value = reward}
-REWARDS = {"Hit": 1, "FA": 0, "Miss": 0, "CR": 0}
+REWARDS = {"Hit": 1, "FA": 0, "Miss": -1, "CR": 0}
 GO = 1
 NO_GO = 0
 
