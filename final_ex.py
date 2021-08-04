@@ -309,15 +309,3 @@ def main(data_path, mouse_num):
     find_best_model(best_eta_td_exp, best_beta_exp, best_eta_rein_exp, actions,
                     stimuli_lst, trials_num)
 
-
-if __name__ == '__main__':
-    mice = ['mouse 1', 'mouse 2', 'mouse 3', 'mouse 4']
-    data = [DATA_PATH_1, DATA_PATH_2, DATA_PATH_3, DATA_PATH_4]
-
-    for i in range(len(data)):
-        main(data[i], mice[i])
-
-    # accuracy bars
-    td_accuracy = [0.6678, 0.5120, 0.6122, 0.5047]
-    rein_accuracy = [0.6680, 0.6480, 0.6291, 0.6665]
-    plot_accuracy_bins(td_accuracy, rein_accuracy, mice)
