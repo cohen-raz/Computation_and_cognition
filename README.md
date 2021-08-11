@@ -10,7 +10,7 @@ This project main goal is to **implement** two simple reinforcement learning mod
 - The auditory stimulus in each trial represent the mouse states: 'Go'/ 'NoGo'.  
 Where 'Go' means that the required action is licking the drinking device, and 'NoGO' means that the required action is not licking.  
 (The states are independent; state ~ Ber(0.5))
- - A mouse can perform two actions as a response to the stimulus: Lick / not lick
+- A mouse can perform two actions as a response to the stimulus: Lick / not lick
 - For each action in each state, there is a different reward:  
   
 ![image](https://user-images.githubusercontent.com/83977654/128905279-f74cd744-b963-4b08-8a32-d5e8834bb61a.png)  
