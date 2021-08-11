@@ -27,6 +27,7 @@ Where 'Go' means that the required action is licking the drinking device, and 'N
 - Maximum likelihood estimation (MLE)  
 ![image](https://user-images.githubusercontent.com/83977654/129006531-2c25b08f-689c-412c-98a5-d588c2fafaf3.png)
 
+
 **Model evaluation**
 - Train each model with the parameters selected by the MLE method and calculate the accuracy for each mouse:  
 ![image](https://user-images.githubusercontent.com/83977654/129007417-b473ca26-29ff-4e72-ad14-d9a8dd612f64.png)
